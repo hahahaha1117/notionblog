@@ -1,4 +1,4 @@
-const withTM = require('next-transpile-modules')(['katex'])
+// const withTM = require('next-transpile-modules')(['katex'])
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -24,4 +24,4 @@ const nextConfig = {
   transpilePackages: ['dayjs'], // 原本你有設定這個，保留它
 }
 
-module.exports = withTM(nextConfig)
+module.exports = nextConfig
