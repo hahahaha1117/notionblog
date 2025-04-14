@@ -1,9 +1,9 @@
 const BLOG = {
   title: "Wen's Blog",
-  author: 'Wendy',
+  author: "Wen's Day",
   email: 'wensdayyyy.life@gmail.com',
   link: 'https://wensday-blog.zeabur.app',
-  description: '紀錄之前在日本的旅行跟一些個人成長相關的文！',
+  description: '',
   lang: 'zh-TW', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Taipei', // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'auto', // ['light', 'dark', 'auto'],
@@ -11,14 +11,14 @@ const BLOG = {
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
-  since: , // If leave this empty, current year will be used.
+  since:'', // If leave this empty, current year will be used.
   postsPerPage: 10,
   sortByDate: false,
   showAbout: true,
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
-  ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
-  socialLink: 'https://twitter.com/craigaryhart',
+  ogImageGenerateURL: '', // The link to generate OG image, don't end with a slash
+  socialLink: 'https://www.instagram.com/wens_dayyyy_life/',
   seo: {
     keywords: ['Blog', 'Website', 'Notion'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
@@ -52,8 +52,8 @@ const BLOG = {
     },
     cusdisConfig: {
       appId: '', // data-app-id
-      host: 'https://cusdis.com', // data-host, change this if you're using self-hosted version
-      scriptSrc: 'https://cusdis.com/js/cusdis.es.js' // change this if you're using self-hosted version
+      host: '', // data-host, change this if you're using self-hosted version
+      scriptSrc: '' // change this if you're using self-hosted version
     }
   },
   isProd: process.env.VERCEL_ENV === 'production' // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)

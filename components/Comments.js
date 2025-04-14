@@ -1,4 +1,4 @@
-import 'gitalk/dist/gitalk.css'
+//import 'gitalk/dist/gitalk.css'
 import { useRouter } from 'next/router'
 import dynamic from 'next/dynamic'
 import cn from 'classnames'
